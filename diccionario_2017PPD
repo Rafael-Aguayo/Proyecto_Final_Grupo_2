@@ -1,0 +1,28 @@
+## Descripcion de columnas
+
+Brand (int)
+Identificador numérico de la marca. Es un código, no el nombre. Sirve como clave para una tabla maestra de marcas (DimBrand).
+
+Description (string)
+Nombre comercial del producto/SKU y su variante (ej.: “Herradura Silver Tequila”). Texto libre; puede incluir la marca. Útil para mostrar en reportes y para construir una clave de producto junto con el tamaño/presentación.
+
+Price (float)
+Precio de venta unitario (PVP/lista) del SKU en la moneda del dataset (no especificada). Debe ser > 0; en tu archivo hay una fila con 0.0 que conviene excluir o imputar.
+
+Size (string)
+Presentación del producto en texto con unidad (p. ej., 750mL, 1.75L). Se recomienda normalizar (trim/upper) y parsear para extraer el volumen numérico y la unidad.
+
+Volume (string/numérico)
+Versión numérica del tamaño (generalmente en mL), p. ej. 750, 1750. Suele coincidir con el número de Size. Conviene convertir a numérico (int/float) y estandarizar la unidad (mL). En tu archivo falta en 1 fila.
+
+Classification (int)
+Código de clasificación/categoría interna del producto (segmentación comercial o fiscal). El archivo no trae el diccionario de códigos; se usa para análisis por categoría.
+
+PurchasePrice (float)
+Precio de compra unitario (costo) al proveedor para ese SKU. Permite calcular margen (Price - PurchasePrice) y PPV frente a distintos vendors.
+
+VendorNumber (int)
+Identificador numérico del proveedor (clave de Vendor). Se usa para uniones y ranking de proveedores por precio/consistencia.
+
+VendorName (string)
+Nombre legal del proveedor. Puede venir con espacios finales o variaciones de formato; conviene hacer strip() y normalizar mayúsculas.
