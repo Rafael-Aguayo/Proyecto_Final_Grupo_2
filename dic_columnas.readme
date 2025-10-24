@@ -1,0 +1,16 @@
+#Diccionarios de columnas por archivo
+## Columnas de archivo SalesFINAL12312016.csv
+'InventoryId'
+'Store':
+'Brand': 
+'Description':
+'Size':Tamaño de la bebida en ml
+'SalesQuantity': Cantidad de producto vendido
+'SalesDollars': monto total de la venta
+'SalesPrice': Precio unitario del producto
+'SalesDate':
+'Volume':
+'Classification':
+'ExciseTax':
+'VendorNo':
+'VendorName':
