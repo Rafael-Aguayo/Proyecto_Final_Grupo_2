@@ -1,7 +1,7 @@
 #Diccionarios de columnas por archivo
 
 ## Columnas de archivo SalesFINAL12312016.csv
-'InventoryId': (ID_Tienda + Texto desconocido + ID_Marca)
+'InventoryId': (ID_Tienda + Texto desconocido + ID_Marca) POR FALTA DE INFORMACION NO FUE MODIFICADO
 'Store': Parece ser el establecimiento de venta
 'Brand': Codigo del producto
 'Description': Nombre del producto
