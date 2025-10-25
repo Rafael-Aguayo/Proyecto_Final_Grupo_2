@@ -10,7 +10,7 @@
 'SalesDollars': monto total de la venta
 'SalesPrice': Precio unitario del producto
 'SalesDate': Fecha de venta
-'Volume': tamaño del producto unitario sin unidad especificada, pero concuerda con la columna 'size'
+'Volume': volumen del producto unitario en mililitros, pero concuerda con la columna 'size'
 'Classification': clasificacion no especificada
 'ExciseTax': Algun impuesto???
 'VendorNo': codigo de la empresa distribuidora
