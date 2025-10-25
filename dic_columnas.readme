@@ -11,7 +11,7 @@
 'SalesPrice': Precio unitario del producto
 'SalesDate': Fecha de venta
 'Volume': volumen del producto unitario en mililitros, pero concuerda con la columna 'size'
-'Classification': clasificacion no especificada
+'Classification': clasificacion no especificada. Aparente coincidencia con la columna 'brand' cuando el codigo de producto es mayor o menor a 10mil (clasificacion: 1= id<10mil , 2= id>10mil)
 'ExciseTax': Algun impuesto???
 'VendorNo': codigo de la empresa distribuidora
 'VendorName':empresa distribuidora del producto
