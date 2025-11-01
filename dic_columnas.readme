@@ -1,0 +1,17 @@
+#Diccionarios de columnas por archivo
+
+## Columnas de archivo SalesFINAL12312016.csv
+'InventoryId': (ID_Tienda + Texto desconocido + ID_Marca) POR FALTA DE INFORMACION NO FUE MODIFICADO
+'Store': Parece ser el establecimiento de venta
+'Brand': Codigo del producto
+'Description': Nombre del producto
+'Size':Tamaño de la bebida en ml ---->> ESTA COLUMNA PARECE SER LA UNION DE 'SalesQuantity' y Volume' por lo que se recomienda eliminarla
+'SalesQuantity': Cantidad de producto vendido
+'SalesDollars': monto total de la venta
+'SalesPrice': Precio unitario del producto
+'SalesDate': Fecha de venta
+'Volume': volumen del producto unitario en mililitros, pero concuerda con la columna 'size'
+'Classification': clasificacion no especificada. Aparente coincidencia con la columna 'brand' cuando el codigo de producto es mayor o menor a 10mil (clasificacion: 1= id<10mil , 2= id>10mil)
+'ExciseTax': Algun impuesto???
+'VendorNo': codigo de la empresa distribuidora
+'VendorName':empresa distribuidora del producto
