@@ -1,0 +1,11 @@
+columna;descripcion;tipo_de_dato
+inventoryid;Identificador único de cada producto o registro en el inventario.;string
+store;Código de la tienda donde se encuentra el producto.;Int64
+city;Ciudad en la que está ubicada la tienda.;object
+brand;Codigo de la marca del producto.;int64
+size;Presentacion del producto;string
+description;Nombre del producto.;object
+size_ml;Presentación del producto en ML;Int64
+onhand;Cantidad disponible en inventario.;int64
+price;Precio unitario del producto.;floa64
+enddate;Fecha de inventario ;datetime
