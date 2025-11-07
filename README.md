@@ -1,6 +1,10 @@
 <div style="text-align: center;">
 
   <h1>Proyecto Inventario Inteligente. Data Analist 📊</h1> 
+
+<p align="center">
+  [Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green.svg)
+</p>
   <br>&nbsp;<br>
   
   <h2> Equipo:   <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/cfb671d4-1cb9-433a-a683-7a42252fa101" />
