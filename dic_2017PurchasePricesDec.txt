@@ -1,0 +1,11 @@
+brand: Identificador numérico de la marca del producto.
+description: Nombre completo/comercial del producto.
+price: Precio de venta unitario al cliente (en dólares).
+volume: Volumen del envase del producto (en mililitros).
+classification: Código numérico de clasificación/categoría del producto.
+purchase_price: Precio de compra unitario al proveedor (costo).
+vendor_number: Identificador numérico del proveedor.
+vendor_name: Nombre del proveedor.
+sales_quantity: Cantidad de unidades vendidas/registradas.
+gross_margin: Margen bruto unitario (price − purchase_price).
+margin_percent: Margen bruto unitario expresado en porcentaje sobre el price.
