@@ -148,7 +148,7 @@
   
   <h3>Problemas detectados:</h3>
   <ul style="list-style-position: inside; padding-left: 0;">
-    <li style="list-style: none;">**Capital inmovilizado:** **$181,13K** en productos sin rotación y 5.483 unidades físicas inmóviles.</li>
+    <li style="list-style: none;">**Capital inmovilizado:** **$181,13K** en productos sin rotación.</li>
     <li style="list-style: none;">**Inventario de alto valor y baja rotación:** Ejemplos como The Macallan 18 y Patron Tequila.</li>
     <li style="list-style: none;">**Rentabilidad bruta de 31,6%, pero capital liberado negativo** por exceso de stock.</li>
   </ul>
